@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023D1ADB11765B482010910A /* Pods_KeyFlow_Teach_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C187C750585F66341B28931 /* Pods_KeyFlow_Teach_Task.framework */; };
+		2133926A25DEFB2F00B2D87C /* AppFramework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133926925DEFB2F00B2D87C /* AppFramework.swift */; };
+		2133927B25DEFB7A00B2D87C /* AppPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133927A25DEFB7A00B2D87C /* AppPart.swift */; };
+		2133928625DEFC0300B2D87C /* EventsListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2133928525DEFC0300B2D87C /* EventsListPresenter.swift */; };
+		215FD9FF25DEDFC100CC1985 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215FD9FE25DEDFC100CC1985 /* AppDelegate.swift */; };
+		215FDA0325DEDFC100CC1985 /* EventsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215FDA0225DEDFC100CC1985 /* EventsListViewController.swift */; };
+		215FDA0625DEDFC100CC1985 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215FDA0425DEDFC100CC1985 /* Main.storyboard */; };
+		215FDA0B25DEDFC400CC1985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215FDA0A25DEDFC400CC1985 /* Assets.xcassets */; };
+		215FDA0E25DEDFC400CC1985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215FDA0C25DEDFC400CC1985 /* LaunchScreen.storyboard */; };
+		215FDA1925DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215FDA1825DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift */; };
+		215FDA2425DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215FDA2325DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215FDA1525DEDFC400CC1985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215FD9F325DEDFC100CC1985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215FD9FA25DEDFC100CC1985;
+			remoteInfo = "KeyFlow-Teach-Task";
+		};
+		215FDA2025DEDFC500CC1985 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215FD9F325DEDFC100CC1985 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 215FD9FA25DEDFC100CC1985;
+			remoteInfo = "KeyFlow-Teach-Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053EE58023DD1D398D6EB7D7 /* Pods-KeyFlow-Teach-Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyFlow-Teach-Task.release.xcconfig"; path = "Target Support Files/Pods-KeyFlow-Teach-Task/Pods-KeyFlow-Teach-Task.release.xcconfig"; sourceTree = "<group>"; };
+		08B25C52588BEE018E1C2FAF /* Pods-KeyFlow-Teach-Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyFlow-Teach-Task.debug.xcconfig"; path = "Target Support Files/Pods-KeyFlow-Teach-Task/Pods-KeyFlow-Teach-Task.debug.xcconfig"; sourceTree = "<group>"; };
+		2133926925DEFB2F00B2D87C /* AppFramework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFramework.swift; sourceTree = "<group>"; };
+		2133927A25DEFB7A00B2D87C /* AppPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPart.swift; sourceTree = "<group>"; };
+		2133928525DEFC0300B2D87C /* EventsListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListPresenter.swift; sourceTree = "<group>"; };
+		215FD9FB25DEDFC100CC1985 /* KeyFlow-Teach-Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeyFlow-Teach-Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		215FD9FE25DEDFC100CC1985 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		215FDA0225DEDFC100CC1985 /* EventsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListViewController.swift; sourceTree = "<group>"; };
+		215FDA0525DEDFC100CC1985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		215FDA0A25DEDFC400CC1985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		215FDA0D25DEDFC400CC1985 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		215FDA0F25DEDFC400CC1985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215FDA1425DEDFC400CC1985 /* KeyFlow-Teach-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyFlow-Teach-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		215FDA1825DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFlow_Teach_TaskTests.swift; sourceTree = "<group>"; };
+		215FDA1A25DEDFC400CC1985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215FDA1F25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyFlow-Teach-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		215FDA2325DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFlow_Teach_TaskUITests.swift; sourceTree = "<group>"; };
+		215FDA2525DEDFC500CC1985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C187C750585F66341B28931 /* Pods_KeyFlow_Teach_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyFlow_Teach_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215FD9F825DEDFC100CC1985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				023D1ADB11765B482010910A /* Pods_KeyFlow_Teach_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215FDA1125DEDFC400CC1985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215FDA1C25DEDFC500CC1985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19A099D8A1D1EE14C72A653F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C187C750585F66341B28931 /* Pods_KeyFlow_Teach_Task.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2133926225DEF90600B2D87C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2133926325DEF90F00B2D87C /* Events */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2133926325DEF90F00B2D87C /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				2133926425DEF92E00B2D87C /* Presenters */,
+				217C6D0725DEEDEE003020AF /* Models */,
+				217C6D0525DEEDB5003020AF /* Views */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		2133926425DEF92E00B2D87C /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				2133928525DEFC0300B2D87C /* EventsListPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		2133926825DEFB0700B2D87C /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				2133926925DEFB2F00B2D87C /* AppFramework.swift */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		2133927125DEFB5900B2D87C /* AppParts */ = {
+			isa = PBXGroup;
+			children = (
+				2133927A25DEFB7A00B2D87C /* AppPart.swift */,
+			);
+			path = AppParts;
+			sourceTree = "<group>";
+		};
+		215FD9F225DEDFC100CC1985 = {
+			isa = PBXGroup;
+			children = (
+				215FD9FD25DEDFC100CC1985 /* KeyFlow-Teach-Task */,
+				215FDA1725DEDFC400CC1985 /* KeyFlow-Teach-TaskTests */,
+				215FDA2225DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */,
+				215FD9FC25DEDFC100CC1985 /* Products */,
+				47DCE74AE0C1DB2B52EB1017 /* Pods */,
+				19A099D8A1D1EE14C72A653F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		215FD9FC25DEDFC100CC1985 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				215FD9FB25DEDFC100CC1985 /* KeyFlow-Teach-Task.app */,
+				215FDA1425DEDFC400CC1985 /* KeyFlow-Teach-TaskTests.xctest */,
+				215FDA1F25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		215FD9FD25DEDFC100CC1985 /* KeyFlow-Teach-Task */ = {
+			isa = PBXGroup;
+			children = (
+				217C6D0425DEEDA5003020AF /* AppCore */,
+				2133926225DEF90600B2D87C /* Screens */,
+				217C6D0325DEED9B003020AF /* Services */,
+			);
+			path = "KeyFlow-Teach-Task";
+			sourceTree = "<group>";
+		};
+		215FDA1725DEDFC400CC1985 /* KeyFlow-Teach-TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				215FDA1825DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift */,
+				215FDA1A25DEDFC400CC1985 /* Info.plist */,
+			);
+			path = "KeyFlow-Teach-TaskTests";
+			sourceTree = "<group>";
+		};
+		215FDA2225DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				215FDA2325DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift */,
+				215FDA2525DEDFC500CC1985 /* Info.plist */,
+			);
+			path = "KeyFlow-Teach-TaskUITests";
+			sourceTree = "<group>";
+		};
+		217C6D0325DEED9B003020AF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		217C6D0425DEEDA5003020AF /* AppCore */ = {
+			isa = PBXGroup;
+			children = (
+				2133927125DEFB5900B2D87C /* AppParts */,
+				2133926825DEFB0700B2D87C /* Framework */,
+				217C6D0625DEEDBE003020AF /* Resources */,
+				215FD9FE25DEDFC100CC1985 /* AppDelegate.swift */,
+			);
+			path = AppCore;
+			sourceTree = "<group>";
+		};
+		217C6D0525DEEDB5003020AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				215FDA0225DEDFC100CC1985 /* EventsListViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		217C6D0625DEEDBE003020AF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				215FDA0425DEDFC100CC1985 /* Main.storyboard */,
+				215FDA0A25DEDFC400CC1985 /* Assets.xcassets */,
+				215FDA0C25DEDFC400CC1985 /* LaunchScreen.storyboard */,
+				215FDA0F25DEDFC400CC1985 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		217C6D0725DEEDEE003020AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		47DCE74AE0C1DB2B52EB1017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08B25C52588BEE018E1C2FAF /* Pods-KeyFlow-Teach-Task.debug.xcconfig */,
+				053EE58023DD1D398D6EB7D7 /* Pods-KeyFlow-Teach-Task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		215FD9FA25DEDFC100CC1985 /* KeyFlow-Teach-Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215FDA2825DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-Task" */;
+			buildPhases = (
+				04E4150549569063CAA3E3D0 /* [CP] Check Pods Manifest.lock */,
+				215FD9F725DEDFC100CC1985 /* Sources */,
+				215FD9F825DEDFC100CC1985 /* Frameworks */,
+				215FD9F925DEDFC100CC1985 /* Resources */,
+				57A32E9BB54D24CBE715B4E8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeyFlow-Teach-Task";
+			productName = "KeyFlow-Teach-Task";
+			productReference = 215FD9FB25DEDFC100CC1985 /* KeyFlow-Teach-Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		215FDA1325DEDFC400CC1985 /* KeyFlow-Teach-TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215FDA2B25DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-TaskTests" */;
+			buildPhases = (
+				215FDA1025DEDFC400CC1985 /* Sources */,
+				215FDA1125DEDFC400CC1985 /* Frameworks */,
+				215FDA1225DEDFC400CC1985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215FDA1625DEDFC400CC1985 /* PBXTargetDependency */,
+			);
+			name = "KeyFlow-Teach-TaskTests";
+			productName = "KeyFlow-Teach-TaskTests";
+			productReference = 215FDA1425DEDFC400CC1985 /* KeyFlow-Teach-TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		215FDA1E25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215FDA2E25DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-TaskUITests" */;
+			buildPhases = (
+				215FDA1B25DEDFC500CC1985 /* Sources */,
+				215FDA1C25DEDFC500CC1985 /* Frameworks */,
+				215FDA1D25DEDFC500CC1985 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215FDA2125DEDFC500CC1985 /* PBXTargetDependency */,
+			);
+			name = "KeyFlow-Teach-TaskUITests";
+			productName = "KeyFlow-Teach-TaskUITests";
+			productReference = 215FDA1F25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215FD9F325DEDFC100CC1985 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				ORGANIZATIONNAME = KeyFlow;
+				TargetAttributes = {
+					215FD9FA25DEDFC100CC1985 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					215FDA1325DEDFC400CC1985 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 215FD9FA25DEDFC100CC1985;
+					};
+					215FDA1E25DEDFC500CC1985 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 215FD9FA25DEDFC100CC1985;
+					};
+				};
+			};
+			buildConfigurationList = 215FD9F625DEDFC100CC1985 /* Build configuration list for PBXProject "KeyFlow-Teach-Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215FD9F225DEDFC100CC1985;
+			productRefGroup = 215FD9FC25DEDFC100CC1985 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				215FD9FA25DEDFC100CC1985 /* KeyFlow-Teach-Task */,
+				215FDA1325DEDFC400CC1985 /* KeyFlow-Teach-TaskTests */,
+				215FDA1E25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215FD9F925DEDFC100CC1985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215FDA0E25DEDFC400CC1985 /* LaunchScreen.storyboard in Resources */,
+				215FDA0B25DEDFC400CC1985 /* Assets.xcassets in Resources */,
+				215FDA0625DEDFC100CC1985 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215FDA1225DEDFC400CC1985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215FDA1D25DEDFC500CC1985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04E4150549569063CAA3E3D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyFlow-Teach-Task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57A32E9BB54D24CBE715B4E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyFlow-Teach-Task/Pods-KeyFlow-Teach-Task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KeyFlow-Teach-Task/Pods-KeyFlow-Teach-Task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KeyFlow-Teach-Task/Pods-KeyFlow-Teach-Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215FD9F725DEDFC100CC1985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215FDA0325DEDFC100CC1985 /* EventsListViewController.swift in Sources */,
+				2133928625DEFC0300B2D87C /* EventsListPresenter.swift in Sources */,
+				2133926A25DEFB2F00B2D87C /* AppFramework.swift in Sources */,
+				215FD9FF25DEDFC100CC1985 /* AppDelegate.swift in Sources */,
+				2133927B25DEFB7A00B2D87C /* AppPart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215FDA1025DEDFC400CC1985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215FDA1925DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215FDA1B25DEDFC500CC1985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215FDA2425DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215FDA1625DEDFC400CC1985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215FD9FA25DEDFC100CC1985 /* KeyFlow-Teach-Task */;
+			targetProxy = 215FDA1525DEDFC400CC1985 /* PBXContainerItemProxy */;
+		};
+		215FDA2125DEDFC500CC1985 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 215FD9FA25DEDFC100CC1985 /* KeyFlow-Teach-Task */;
+			targetProxy = 215FDA2025DEDFC500CC1985 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		215FDA0425DEDFC100CC1985 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215FDA0525DEDFC100CC1985 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		215FDA0C25DEDFC400CC1985 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215FDA0D25DEDFC400CC1985 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		215FDA2625DEDFC500CC1985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215FDA2725DEDFC500CC1985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215FDA2925DEDFC500CC1985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B25C52588BEE018E1C2FAF /* Pods-KeyFlow-Teach-Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSAKYUC82R;
+				INFOPLIST_FILE = "$(SRCROOT)/KeyFlow-Teach-Task/AppCore/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		215FDA2A25DEDFC500CC1985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053EE58023DD1D398D6EB7D7 /* Pods-KeyFlow-Teach-Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSAKYUC82R;
+				INFOPLIST_FILE = "$(SRCROOT)/KeyFlow-Teach-Task/AppCore/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		215FDA2C25DEDFC500CC1985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSAKYUC82R;
+				INFOPLIST_FILE = "KeyFlow-Teach-TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyFlow-Teach-Task.app/KeyFlow-Teach-Task";
+			};
+			name = Debug;
+		};
+		215FDA2D25DEDFC500CC1985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSAKYUC82R;
+				INFOPLIST_FILE = "KeyFlow-Teach-TaskTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyFlow-Teach-Task.app/KeyFlow-Teach-Task";
+			};
+			name = Release;
+		};
+		215FDA2F25DEDFC500CC1985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSAKYUC82R;
+				INFOPLIST_FILE = "KeyFlow-Teach-TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KeyFlow-Teach-Task";
+			};
+			name = Debug;
+		};
+		215FDA3025DEDFC500CC1985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DSAKYUC82R;
+				INFOPLIST_FILE = "KeyFlow-Teach-TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KeyFlow-Teach-Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215FD9F625DEDFC100CC1985 /* Build configuration list for PBXProject "KeyFlow-Teach-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215FDA2625DEDFC500CC1985 /* Debug */,
+				215FDA2725DEDFC500CC1985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215FDA2825DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215FDA2925DEDFC500CC1985 /* Debug */,
+				215FDA2A25DEDFC500CC1985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215FDA2B25DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215FDA2C25DEDFC500CC1985 /* Debug */,
+				215FDA2D25DEDFC500CC1985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215FDA2E25DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215FDA2F25DEDFC500CC1985 /* Debug */,
+				215FDA3025DEDFC500CC1985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215FD9F325DEDFC100CC1985 /* Project object */;
+}
