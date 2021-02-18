@@ -17,18 +17,10 @@
 		215FDA0B25DEDFC400CC1985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215FDA0A25DEDFC400CC1985 /* Assets.xcassets */; };
 		215FDA0E25DEDFC400CC1985 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215FDA0C25DEDFC400CC1985 /* LaunchScreen.storyboard */; };
 		215FDA1925DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215FDA1825DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift */; };
-		215FDA2425DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215FDA2325DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		215FDA1525DEDFC400CC1985 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 215FD9F325DEDFC100CC1985 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 215FD9FA25DEDFC100CC1985;
-			remoteInfo = "KeyFlow-Teach-Task";
-		};
-		215FDA2025DEDFC500CC1985 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 215FD9F325DEDFC100CC1985 /* Project object */;
 			proxyType = 1;
@@ -53,9 +45,6 @@
 		215FDA1425DEDFC400CC1985 /* KeyFlow-Teach-TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyFlow-Teach-TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		215FDA1825DEDFC400CC1985 /* KeyFlow_Teach_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFlow_Teach_TaskTests.swift; sourceTree = "<group>"; };
 		215FDA1A25DEDFC400CC1985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		215FDA1F25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeyFlow-Teach-TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		215FDA2325DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFlow_Teach_TaskUITests.swift; sourceTree = "<group>"; };
-		215FDA2525DEDFC500CC1985 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C187C750585F66341B28931 /* Pods_KeyFlow_Teach_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyFlow_Teach_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,13 +58,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		215FDA1125DEDFC400CC1985 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		215FDA1C25DEDFC500CC1985 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -140,7 +122,6 @@
 			children = (
 				215FD9FD25DEDFC100CC1985 /* KeyFlow-Teach-Task */,
 				215FDA1725DEDFC400CC1985 /* KeyFlow-Teach-TaskTests */,
-				215FDA2225DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */,
 				215FD9FC25DEDFC100CC1985 /* Products */,
 				47DCE74AE0C1DB2B52EB1017 /* Pods */,
 				19A099D8A1D1EE14C72A653F /* Frameworks */,
@@ -152,7 +133,6 @@
 			children = (
 				215FD9FB25DEDFC100CC1985 /* KeyFlow-Teach-Task.app */,
 				215FDA1425DEDFC400CC1985 /* KeyFlow-Teach-TaskTests.xctest */,
-				215FDA1F25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,15 +154,6 @@
 				215FDA1A25DEDFC400CC1985 /* Info.plist */,
 			);
 			path = "KeyFlow-Teach-TaskTests";
-			sourceTree = "<group>";
-		};
-		215FDA2225DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */ = {
-			isa = PBXGroup;
-			children = (
-				215FDA2325DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift */,
-				215FDA2525DEDFC500CC1985 /* Info.plist */,
-			);
-			path = "KeyFlow-Teach-TaskUITests";
 			sourceTree = "<group>";
 		};
 		217C6D0325DEED9B003020AF /* Services */ = {
@@ -278,24 +249,6 @@
 			productReference = 215FDA1425DEDFC400CC1985 /* KeyFlow-Teach-TaskTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		215FDA1E25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 215FDA2E25DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-TaskUITests" */;
-			buildPhases = (
-				215FDA1B25DEDFC500CC1985 /* Sources */,
-				215FDA1C25DEDFC500CC1985 /* Frameworks */,
-				215FDA1D25DEDFC500CC1985 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				215FDA2125DEDFC500CC1985 /* PBXTargetDependency */,
-			);
-			name = "KeyFlow-Teach-TaskUITests";
-			productName = "KeyFlow-Teach-TaskUITests";
-			productReference = 215FDA1F25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -310,10 +263,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					215FDA1325DEDFC400CC1985 = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 215FD9FA25DEDFC100CC1985;
-					};
-					215FDA1E25DEDFC500CC1985 = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 215FD9FA25DEDFC100CC1985;
 					};
@@ -334,7 +283,6 @@
 			targets = (
 				215FD9FA25DEDFC100CC1985 /* KeyFlow-Teach-Task */,
 				215FDA1325DEDFC400CC1985 /* KeyFlow-Teach-TaskTests */,
-				215FDA1E25DEDFC500CC1985 /* KeyFlow-Teach-TaskUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -351,13 +299,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		215FDA1225DEDFC400CC1985 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		215FDA1D25DEDFC500CC1985 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,14 +370,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		215FDA1B25DEDFC500CC1985 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				215FDA2425DEDFC500CC1985 /* KeyFlow_Teach_TaskUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -444,11 +377,6 @@
 			isa = PBXTargetDependency;
 			target = 215FD9FA25DEDFC100CC1985 /* KeyFlow-Teach-Task */;
 			targetProxy = 215FDA1525DEDFC400CC1985 /* PBXContainerItemProxy */;
-		};
-		215FDA2125DEDFC500CC1985 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 215FD9FA25DEDFC100CC1985 /* KeyFlow-Teach-Task */;
-			targetProxy = 215FDA2025DEDFC500CC1985 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -674,46 +602,6 @@
 			};
 			name = Release;
 		};
-		215FDA2F25DEDFC500CC1985 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DSAKYUC82R;
-				INFOPLIST_FILE = "KeyFlow-Teach-TaskUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "KeyFlow-Teach-Task";
-			};
-			name = Debug;
-		};
-		215FDA3025DEDFC500CC1985 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = DSAKYUC82R;
-				INFOPLIST_FILE = "KeyFlow-Teach-TaskUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vasilitch.KeyFlow-Teach-TaskUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "KeyFlow-Teach-Task";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -740,15 +628,6 @@
 			buildConfigurations = (
 				215FDA2C25DEDFC500CC1985 /* Debug */,
 				215FDA2D25DEDFC500CC1985 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		215FDA2E25DEDFC500CC1985 /* Build configuration list for PBXNativeTarget "KeyFlow-Teach-TaskUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				215FDA2F25DEDFC500CC1985 /* Debug */,
-				215FDA3025DEDFC500CC1985 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
