@@ -6,4 +6,4 @@ How to build:
 5. Run the project
 
 
-![screeen](https://raw.github.com/VasilyPolyuhovich/iArrived/KeyFlow-Tech-Task/screeen.png)
+![screeen](https://raw.github.com/VasilyPolyuhovich/KeyFlow-Tech-Task/screeen.png)
