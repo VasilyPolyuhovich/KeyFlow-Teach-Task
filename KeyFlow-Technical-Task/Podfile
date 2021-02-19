@@ -1,0 +1,15 @@
+platform :ios, '13.0'
+
+target 'KeyFlow-Technical-Task' do
+  use_frameworks!
+  # Networking
+  pod 'Moya'
+  # Database
+  pod 'Unrealm'
+  # Swift Promises
+  pod 'thenPromise'
+  # DI containers
+  pod 'DITranquillity'
+  # Image lib
+  pod 'Kingfisher'
+end

@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (5.4.1)
+  - DITranquillity (4.1.7):
+    - SwiftLazy (>= 1.1.6)
+  - Kingfisher (6.1.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Realm (10.5.0):
+    - Realm/Headers (= 10.5.0)
+  - Realm/Headers (10.5.0)
+  - RealmSwift (10.5.0):
+    - Realm (= 10.5.0)
+  - RuntimeNew (2.1.5)
+  - SwiftLazy (1.1.7)
+  - thenPromise (5.1.2)
+  - Unrealm (1.9.0):
+    - Realm (= 10.5.0)
+    - RealmSwift (= 10.5.0)
+    - RuntimeNew (= 2.1.5)
+
+DEPENDENCIES:
+  - DITranquillity
+  - Kingfisher
+  - Moya
+  - thenPromise
+  - Unrealm
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DITranquillity
+    - Kingfisher
+    - Moya
+    - Realm
+    - RealmSwift
+    - RuntimeNew
+    - SwiftLazy
+    - thenPromise
+    - Unrealm
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  DITranquillity: 1cc4481cb316b8f142248d5dfd6e545d73714e7c
+  Kingfisher: 676d63307fbef6ed5d5ed400bff36983480d7500
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Realm: e1c22c3d83b229afb70ebc10e1771c91e9542d12
+  RealmSwift: 6fc078d9d3fd7e58c71bfdbb694e252462f112a5
+  RuntimeNew: ef34cf1783be4c1cbe798970bc590924dab5df87
+  SwiftLazy: dcb1edc6c2b633ba2e68f28554d9dd6d1c0bfd13
+  thenPromise: c1a319348c6052652b071d8dd4c6db9984860209
+  Unrealm: 4992f5170f330be3e7b82b184b07dc8eb24257cc
+
+PODFILE CHECKSUM: 05553aebae95810090194c6401d93b459e4d37f2
+
+COCOAPODS: 1.10.0
