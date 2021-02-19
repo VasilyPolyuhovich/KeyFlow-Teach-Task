@@ -38,7 +38,6 @@ class EventsListViewController: UIViewController {
         goToButton.backgroundColor = .black
         goToButton.setTitleColor(.white, for: .normal)
         goToButton.setTitle(NSLocalizedString("GO OUT TONIGHT", comment: ""), for: .normal)
-
     }
 }
 
